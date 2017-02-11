@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<Preference
+		android:title="Module not active in Xposed"
+		android:key="pref_key_xposed"
+		android:summary="Please activate and reboot"
+	/>
+
+	<PreferenceCategory android:title="Search / Suggestions Toolbar">
+		<CheckBoxPreference android:title="Hide Search / Suggestions Toolbar"
+            android:key="pref_hide_search_bar"
+		/>
+    </PreferenceCategory>
+	
+	<PreferenceCategory android:title="Keyboard Test Area">
+		<Preference
+			android:layout="@layout/keyboard_test_area"
+			android:hint="Test keyboard here"
+		/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

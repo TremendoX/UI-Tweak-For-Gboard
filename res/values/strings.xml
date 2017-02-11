@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">UI Tweak For Gboard</string>
+	<string name="xposed_description">Xposed module for Google Keyboard aka Gboard.
+									 \nToggle hiding of search / suggestion bar</string>
+
+</resources>

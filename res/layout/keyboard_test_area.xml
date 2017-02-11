@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:paddingLeft="20.0dp"
+	android:paddingRight="20.0dp"
+	android:paddingBottom="10.0dp"
+    android:orientation="vertical">
+
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10.0dp"
+		android:lines="2"
+		android:maxLines="2"
+		android:background="#FFE8E8E8"
+		android:hint="Test keyboard changes here"
+	/>
+
+</LinearLayout>
